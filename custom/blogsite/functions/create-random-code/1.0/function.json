@@ -1,0 +1,38 @@
+{
+  "description": "This function creates a six figured random number after creating a verification code object",
+  "label": "Create Random Code",
+  "category": "Misc",
+  "icon": {
+    "name": "ActionsIcon",
+    "color": "Orange"
+  },
+  "options": [
+    {
+      "meta": {
+        "type": "Object"
+      },
+      "name": "webuser",
+      "label": "Webuser",
+      "info": "A webuser to connect with"
+    },
+    {
+      "name": "model",
+      "label": "VerficationCode",
+      "meta": {
+        "type": "Model"
+      }
+    },
+    {
+      "name": "result",
+      "label": "Result",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Inherit",
+          "action": "action"
+        }
+      }
+    }
+  ],
+  "yields": "NONE"
+}
